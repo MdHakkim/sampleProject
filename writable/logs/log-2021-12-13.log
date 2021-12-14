@@ -1,0 +1,272 @@
+CRITICAL - 2021-12-13 06:34:57 --> Invalid file: welcome_message.php
+#0 C:\wamp64\www\SampleProject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPage.php(9): view('welcome_message')
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPage->index()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPage))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-13 07:19:12 --> Call to a member function helper() on null
+#0 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPage->index()
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPage))
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-13 07:19:13 --> Call to a member function helper() on null
+#0 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPage->index()
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPage))
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-13 10:10:45 --> Class 'App\Controllers\StartPage\BaseController' not found
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 10:10:46 --> Class 'App\Controllers\StartPage\BaseController' not found
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 10:10:47 --> Class 'App\Controllers\StartPage\BaseController' not found
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 10:10:49 --> Class 'App\Controllers\StartPage\BaseController' not found
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 11:14:11 --> Call to a member function insert() on null
+#0 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-13 11:58:53 --> No reader found for type C:\wamp64\tmp\php4BC6.tmp
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::createReader('C:\\wamp64\\tmp\\p...')
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 12:02:41 --> No reader found for type xlsx
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::createReader('xlsx')
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 12:04:20 --> No reader found for type xlsx
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::createReader('xlsx')
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 12:05:30 --> No reader found for type xlsx
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(19): PhpOffice\PhpSpreadsheet\IOFactory::createReader('xlsx')
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 12:05:40 --> No reader found for type xlsx
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::createReader('xlsx')
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 12:05:45 --> No reader found for type xlsx
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::createReader('xlsx')
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 13:08:08 --> File "Item_Master28-Nov-2021(2).xls" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(99): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('Item_Master28-N...')
+#1 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(86): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('Item_Master28-N...')
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::identify('Item_Master28-N...')
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-13 13:12:37 --> File "Item_Master28-Nov-2021(2).xls" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(99): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('Item_Master28-N...')
+#1 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(76): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('Item_Master28-N...')
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::load('Item_Master28-N...')
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-13 13:20:31 --> File "Item_Master28-Nov-2021(2).xls" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(99): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('Item_Master28-N...')
+#1 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(76): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('Item_Master28-N...')
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::load('Item_Master28-N...')
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-13 13:21:39 --> File "" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(99): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('')
+#1 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(76): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('')
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::load('')
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-13 13:21:53 --> File "" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(99): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('')
+#1 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(76): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('')
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): PhpOffice\PhpSpreadsheet\IOFactory::load('')
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-13 13:25:53 --> end() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'end() expects p...', 'C:\\wamp64\\www\\S...', 18, Array)
+#1 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(18): end('Item_Master28-N...')
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-13 13:26:50 --> File "" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(21): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('')
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-13 13:30:04 --> Could not find zip member zip://C:\wamp64\tmp\phpC70D.tmp#_rels/.rels
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\wamp64\\tmp\\p...', '_rels/.rels')
+#1 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(21): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-13 13:38:37 --> Undefined variable: sdf
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\S...', 37, Array)
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 13:40:13 --> There is no data to insert.
+#0 C:\wamp64\www\SampleProject\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(56): CodeIgniter\Model->insert(Array)
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-13 13:41:21 --> Column 'location_description' cannot be null
+CRITICAL - 2021-12-13 13:41:21 --> Column 'location_description' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-13 13:57:08 --> Undefined variable: exldata
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\S...', 38, Array)
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-13 13:57:33 --> Column 'site_id' cannot be null
+CRITICAL - 2021-12-13 13:57:33 --> Column 'site_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-13 14:59:30 --> Undefined variable: session
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\S...', 41, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 14:59:46 --> Undefined variable: session
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\S...', 41, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 15:11:25 --> Undefined variable: config
+#0 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\S...', 15, Array)
+#1 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 15:13:53 --> File "" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(42): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('')
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

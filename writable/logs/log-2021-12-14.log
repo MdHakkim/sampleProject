@@ -1,0 +1,548 @@
+CRITICAL - 2021-12-14 00:13:33 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\wamp64\www\SampleProject\system\View\View.php(214): include()
+#1 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#3 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-14 00:14:16 --> Call to a member function getErrors() on null
+#0 C:\wamp64\www\SampleProject\system\View\View.php(214): include()
+#1 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#3 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-14 00:14:33 --> Undefined variable: getError
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\S...', 42, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 00:15:51 --> Call to a member function getErrors() on null
+#0 C:\wamp64\www\SampleProject\system\View\View.php(214): include()
+#1 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#3 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-14 00:35:45 --> syntax error, unexpected '}', expecting end of file
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-14 00:36:33 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 00:36:33 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-14 00:51:55 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\S...', 45, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 00:52:06 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\S...', 45, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 00:56:21 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\S...', 45, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 00:56:30 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\S...', 45, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 00:56:55 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\S...', 45, Array)
+#1 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#4 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#7 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-14 00:58:53 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 00:58:53 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-14 00:59:39 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 00:59:39 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-14 01:07:08 --> File "" does not exist.
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(42): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('')
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:07:21 --> Could not find zip member zip://C:\wamp64\tmp\php254D.tmp#_rels/.rels
+#0 C:\wamp64\www\SampleProject\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(392): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('C:\\wamp64\\tmp\\p...', '_rels/.rels')
+#1 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(42): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#3 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-14 01:08:18 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 01:08:18 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-14 01:12:12 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 01:12:12 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-14 01:16:01 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 01:16:01 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-14 01:16:17 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 01:16:17 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-14 01:16:29 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\wamp64\\www\\S...', 71, Array)
+#1 C:\wamp64\www\SampleProject\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '127.0.0.1')
+#3 C:\wamp64\www\SampleProject\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\wamp64\www\SampleProject\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\wamp64\www\SampleProject\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\wamp64\www\SampleProject\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(3): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#9 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#11 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#12 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#13 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#14 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-12-14 01:16:29 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\SampleProject\app\Config\Events.php:32) in C:\wamp64\www\SampleProject\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\wamp64\\www\\S...', 107, Array)
+#1 C:\wamp64\www\SampleProject\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-14 01:16:30 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\wamp64\\www\\S...', 71, Array)
+#1 C:\wamp64\www\SampleProject\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\wamp64\\www\\S...')
+#2 C:\wamp64\www\SampleProject\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '127.0.0.1')
+#3 C:\wamp64\www\SampleProject\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\wamp64\www\SampleProject\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\wamp64\www\SampleProject\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\wamp64\www\SampleProject\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\wamp64\www\SampleProject\app\Views\Excel_view.php(3): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\wamp64\www\SampleProject\system\View\View.php(214): include('C:\\wamp64\\www\\S...')
+#9 C:\wamp64\www\SampleProject\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\wamp64\www\SampleProject\system\Common.php(1097): CodeIgniter\View\View->render('Excel_view', Array, true)
+#11 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(11): view('Excel_view', Array)
+#12 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->index()
+#13 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#14 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-12-14 01:16:30 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\SampleProject\app\Config\Events.php:32) in C:\wamp64\www\SampleProject\system\Debug\Exceptions.php:107
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\wamp64\\www\\S...', 107, Array)
+#1 C:\wamp64\www\SampleProject\system\Debug\Exceptions.php(107): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-14 01:16:42 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 01:16:42 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-14 01:18:19 --> Column 'contract_id' cannot be null
+CRITICAL - 2021-12-14 01:18:19 --> Column 'contract_id' cannot be null
+#0 C:\wamp64\www\SampleProject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\SampleProject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\SampleProject\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\SampleProject\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\SampleProject\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\SampleProject\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\SampleProject\app\Controllers\StartPageController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\SampleProject\system\CodeIgniter.php(824): App\Controllers\StartPageController->exportExcel()
+#9 C:\wamp64\www\SampleProject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StartPageController))
+#10 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-14 01:26:05 --> syntax error, unexpected '}', expecting end of file
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-14 01:26:07 --> syntax error, unexpected '}', expecting end of file
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-14 01:26:08 --> syntax error, unexpected '}', expecting end of file
+#0 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\S...')
+#1 C:\wamp64\www\SampleProject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\SampleProject\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\SampleProject\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\SampleProject\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\SampleProject\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-14 01:27:23 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:28:30 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:29:45 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:30:12 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:30:58 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:31:16 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:35:38 --> Duplicate entry '126860' for key 'PRIMARY'
+ERROR - 2021-12-14 01:43:11 --> Duplicate entry '126860' for key 'PRIMARY'
+ERROR - 2021-12-14 01:45:02 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 01:45:09 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:00:07 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126932' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126933' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126934' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126935' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126936' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126937' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126938' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126939' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126940' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126941' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126942' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126943' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126944' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126945' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126946' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126947' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126948' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126949' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126950' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126951' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126952' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126953' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126954' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126955' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126956' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126957' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126958' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126959' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126960' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126961' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126962' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126963' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126964' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126965' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126966' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:07 --> Duplicate entry '126967' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126932' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126933' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126934' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126935' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126936' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126937' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126938' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126939' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126940' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126941' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126942' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126943' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126944' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126945' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126946' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126947' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126948' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126949' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126950' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126951' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126952' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126953' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126954' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126955' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126956' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126957' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126958' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126959' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126960' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126961' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126962' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126963' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126964' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126965' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126966' for key 'PRIMARY'
+ERROR - 2021-12-14 02:00:14 --> Duplicate entry '126967' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126932' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126933' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126934' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126935' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126936' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126937' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126938' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126939' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126940' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126941' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126942' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126943' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126944' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126945' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126946' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126947' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126948' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126949' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126950' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126951' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126952' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126953' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126954' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126955' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126956' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126957' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126958' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126959' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126960' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126961' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126962' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126963' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126964' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126965' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126966' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:17 --> Duplicate entry '126967' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126932' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126933' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126934' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126935' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126936' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126937' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126938' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126939' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126940' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126941' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126942' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126943' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126944' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126945' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126946' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126947' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126948' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126949' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126950' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126951' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126952' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126953' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126954' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126955' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126956' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126957' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126958' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126959' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126960' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126961' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126962' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126963' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126964' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126965' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126966' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:33 --> Duplicate entry '126967' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126932' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126933' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126934' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126935' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126936' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126937' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126938' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126939' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126940' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126941' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126942' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126943' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126944' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126945' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126946' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126947' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126948' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126949' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126950' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126951' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126952' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126953' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126954' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126955' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126956' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126957' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126958' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126959' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126960' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126961' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126962' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126963' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126964' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126965' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126966' for key 'PRIMARY'
+ERROR - 2021-12-14 02:02:51 --> Duplicate entry '126967' for key 'PRIMARY'
+ERROR - 2021-12-14 02:09:02 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:09:30 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:09:38 --> Duplicate entry '126860' for key 'PRIMARY'
+ERROR - 2021-12-14 02:10:03 --> Duplicate entry '126956' for key 'PRIMARY'
+ERROR - 2021-12-14 02:26:31 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:26:44 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:29:41 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:30:51 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:30:57 --> Duplicate entry '126860' for key 'PRIMARY'
+ERROR - 2021-12-14 02:43:17 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 02:44:38 --> Column 'contract_id' cannot be null
+ERROR - 2021-12-14 03:03:40 --> Column 'contract_id' cannot be null
